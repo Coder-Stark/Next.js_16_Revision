@@ -1,0 +1,10 @@
+1. npx create-next-app@latest
+2. delete .md files (claude, agents)
+3. folder structure understand
+
+    first file which runs src/app/layout.js
+    layout have children of page.js (which actually rendering inside the layout.js)
+
+4. remove extra css in globals.css (only -> @import "tailwindcss";)
+5. clean layout.js
+6. clean page.js
