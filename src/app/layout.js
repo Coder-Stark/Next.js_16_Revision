@@ -1,3 +1,5 @@
+import Footer from "./components/common/Footer";
+import Header from "./components/common/Header";
 import "./globals.css";
 
 
@@ -12,7 +14,11 @@ export default function RootLayout({ children }) {
       lang="en"
       className={` h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Header/>
+        {children}
+        <Footer/>
+      </body>
     </html>
   );
 }

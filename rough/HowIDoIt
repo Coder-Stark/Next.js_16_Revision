@@ -8,3 +8,11 @@
 4. remove extra css in globals.css (only -> @import "tailwindcss";)
 5. clean layout.js
 6. clean page.js
+7. "use client" for client side rendering or sections (not full pages) because it can't be seo
+8. by default any components is made in next.js -> server side component (to overcome use above "use client")
+9. src/app/<folder name> -> its actually a url
+10. src/app/<folder name>/page.js -> actual page content
+11. nested routing -> src/app/<folder_name>/<sub_folder_name(nested route)/page.js
+12. dynamic routing -> src/app/<folder_name>/[..]  
+13. Not found page -> alone no where to call auto calls when no page is there
+14. learned about client side rendering using product (should not use, prefer server side rendering)

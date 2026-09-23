@@ -1,8 +1,13 @@
+//that is kind of home page
+
+import BannerSection from "./components/home-components/BannerSection";
+import LatestProductSection from "./components/home-components/LatestProductSection";
 
 export default function Home() {
   return (
     <>
-      <h1>Welcome to Home Page</h1>
+      <BannerSection/>
+      <LatestProductSection/>
     </>
   );
 }
